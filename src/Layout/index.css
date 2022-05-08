@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+app-layout {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
